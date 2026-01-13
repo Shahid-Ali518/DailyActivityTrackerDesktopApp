@@ -1,0 +1,78 @@
+/* ================================
+   Global Font & Base Styling
+   ================================ */
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "Roboto", "Arial";
+    -fx-font-size: 13px;
+    -fx-background-color: #F6F7FB;
+}
+
+/* ================================
+   Navbar
+   ================================ */
+
+/* Navbar styling */
+.navbar {
+    -fx-background-color: linear-gradient(to right, #4A00E0, #8E2DE2);
+    -fx-padding: 12 20;
+}
+
+.navbar-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.navbar-button {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-text-fill: white;
+    -fx-padding: 6 14;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.navbar-button:hover {
+    -fx-background-color: rgba(255,255,255,0.3);
+}
+
+
+/* ================================
+   Section Headings
+   ================================ */
+
+.section-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C2C2C;
+}
+
+/* ================================
+   Task Item
+   ================================ */
+
+.task-item {
+    -fx-background-color: white;
+    -fx-padding: 12;
+    -fx-background-radius: 8;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 8;
+}
+
+.task-completed {
+    -fx-text-fill: #6A6A6A;
+    -fx-strikethrough: true;
+}
+
+.root {
+    -fx-font-family: 'Segoe UI';
+    -fx-background-color: #ecf0f1;
+}
+
+.label {
+    -fx-text-fill: #2c3e50;
+}
+
+.list-cell {
+    -fx-padding: 5 10 5 10;
+}
