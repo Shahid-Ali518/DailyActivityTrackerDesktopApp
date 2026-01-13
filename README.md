@@ -52,3 +52,13 @@ cd daily-task-tracker
 
 # 3. Build and run
 mvn clean javafx:run
+
+
+### For Executable .msi
+# Double click on shortcut and use it
+
+jpackage --name "Daily Task Tracker" `
+         --input out/ `
+         --main-jar dailyTask-1.0-SNAPSHOT.jar `
+         --main-class org.example.AppLauncher `
+         --type msi --win-shortcut --win-menu
